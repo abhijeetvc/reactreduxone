@@ -6,6 +6,7 @@ const counterReducer=(state=100,action)=>{
 
     switch(action.type){
         case actionType.ADD_COUNTER:
+            console.log('helllooooo');
              latestState=state + action.payload
              return latestState
         

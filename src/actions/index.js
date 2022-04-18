@@ -1,9 +1,11 @@
 import * as actionType from './actionTypes'
 
-export const addCounter=()=>({
+export const addCounter=()=>{
+    console.log('hiiiiiii');
+    return {
     type:actionType.ADD_COUNTER,
     payload:1
-})
+}}
 
 // export const addCounter=()=>{
 //     let addObj={
